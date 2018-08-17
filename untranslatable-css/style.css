@@ -153,7 +153,7 @@ button.good-morning {
 #last {
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-right: 20px solid rgba(255, 255, 255, 0.5);
+  border-right: 20px solid #CDB5C2;
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
@@ -167,7 +167,7 @@ button.good-morning {
           order: 3;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 20px solid rgba(255, 255, 255, 0.5);
+  border-left: 20px solid #CDB5C2;
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
