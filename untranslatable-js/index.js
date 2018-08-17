@@ -1,48 +1,33 @@
 var words = [{
   id: 1,
-  word: 'Good Morning',
+  word: 'Good Morning, Bi ^^',
   language: 'English',
-  description: 'Khi người Anh chúc Linh Sang buổi sáng'
+  description: 'Ở xứ sở sương mù xinh đẹp, nơi ánh bình minh vẫn thường hay ngủ quên sau màng sương lạnh giá, nhịp sống đã bắt đầu hối hả với tất cả mọi người. Người Anh ngủ dậy sớm không để làm gì, chỉ để pha một tách trà và nghĩ về  đất nước hình chữ S xa xôi mà thầm chúc một buổi sáng tốt lành đến một thiên thần vẫn đang hì hục ngủ, nàng tên là Linh Sang.'
 }, {
-  word: 'Bom Dia',
+  word: 'Bom Dia, little "Lily"',
   language: 'Portuguese',
-  description: 'A bitter-sweet melancholic yearning for something beautiful that is now gone.'
+  description: 'Xa xa bên kia ngọn đồi, người Bồ Đào Nha cũng đã bắt đầu rượng dậy sau một đêm dài nhiều mộng mị. Họ không mộng về những đêm trăng thanh, không mộng về những đêm gió mát. Họ mộng về  một đêm đi bão ăn mừng World Cup cùng CR7. Thôi mộng với mị, sáng rồi tất cả đều phải ra sân hô to cho tui: Bom Dia, little Lily ^^.'
 }, {
-  word: 'Hypíaine',
-  language: 'Ancient Greek',
-  description: 'Often translated as ‘happiness’, it really means the deepest kind of fulfilment, often comprising a flourishing work and love life.'
-}, {
-  word: 'Te amo',
+  word: 'Te amo, Linh Sang',
   language: 'Spanish',
-  description: 'A place where we feel safe, a ‘home’ from which we draw our strength and inspiration.'
+  description: 'Và ngôn ngữ đẹp nhất có lẽ đến từ quê hương của những bản tình ca guitar - "Español", thay mặt những tay nghệ sĩ TBN vẫn còn đang ngủ say trong kiếp cầm ca, anh chúc Sang một buổi sáng ngọt ngào - Te amo, Sang ^^'
 }, {
-  word: 'Ohayou',
-  language: 'Japanese',
-  description: 'An acute sensitivity to the transience of lovely things; a melancholic awareness that everything nice will fade combined with a rich enjoyment of this short-lived beauty.'
-}, {
+  word: 'Buổi sáng ngọt ngào',
+  language: 'Người Lạ Đây',
+  description: 'Chúc Sang mỗi sáng thức dậy là một ngày vui. If by any chance, u greet me in the morning, plz do it in Spanish thôi nhé ^^'
+},
+{
   word: 'Joh-eun achim',
   language: 'Korean',
-  description: 'Contemplation of the fact that dust used to be other things – the walls of a city, the chief of the guards, a book, a great tree: dust is always the ultimate destination. Such contemplation may loosen the grip of our worldly desires.'
-}, {
-  word: 'God morgon',
-  language: 'Swedish',
-  description: 'A mood in which one feels that the universe as a whole possesses a mysterious, elusive, but real, beauty. Moonlight, snow on distant mountains, birds flying very high in the evening sky all feed this sensibility.'
-}, {
-  word: 'guten Morgen',
-  language: 'German',
-  description: 'A traditional break from work usually involving a drink of coffee or tea. In Swedish offices, you are strongly expected to take a fika, no matter how busy you are. It’s democracy and community in a beverage.'
+  description: 'To be continued.'
 }, {
   word: 'Bonjour',
   language: 'France',
-  description: 'A feeling of edgy anticipation that makes one keep on looking out the window to see if an expected visitor is coming up the path.'
+  description: 'To be continued.'
 }, {
   word: "Ba'ajjeveri hendhuneh",
   language: 'Maldivian',
-  description: 'A state of calm that Stoic philosophers aspired to. It’s a lack of agitation that comes from understanding the ways of the universe, accepting fate, knowing what one can control and focusing only on the things one can actually change.'
-}, {
-  word: 'Buổi sáng ngọt ngào',
-  language: 'Người Điện Bàn',
-  description: 'The quality of being attractive because of being imperfect in some way. Instead of getting annoyed and upset by imperfections, wabi-sabi suggests that we should see the flaw itself as being part of what is charming.'
+  description: 'To be continued.'
 }];
 
 var body = document.body,

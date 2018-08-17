@@ -1,15 +1,18 @@
-/* html, body {
+/* html, div {
   height: 100%;
   padding: 0;
   margin: 0;
   font-size: 18px;
 } */
 
-body.good-morning {
+div.good-morning {
   overflow: hidden;
-  background: #AEE5D8 url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/380275/paper-3.png") repeat fixed center;
+  background: #AEE5D8 url("/home/hbkhanh/workspace/linhsang/linhsang-tiamo.github.com/images/cover7.jpg") no-repeat;
+  background-size: cover;
   font-family: "Libre Baskerville", Georgia, serif;
   color: #555;
+  z-index: 150 !important;
+  height: 100%;
 }
 
 a.good-morning {
@@ -76,7 +79,8 @@ a.good-morning img {
 }
 
 #behind {
-  color: #e0b0d5;
+  /* color: #e0b0d5; */
+  color: black;
   opacity: 0.3;
 }
 
@@ -87,6 +91,7 @@ a.good-morning img {
 }
 
 #card {
+  border-radius: 0.4rem;
   overflow: hidden;
   z-index: 10;
   padding: 3rem;
@@ -150,16 +155,15 @@ button.good-morning {
   border: none;
 }
 
-
 #last {
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-right: 20px solid #CDB5C2;
+  border-right: 20px solid rgba(255,255,255,0.5);
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
 #last:hover {
-  border-right: 20px solid #E0B0D5;
+  border-right:  20px solid rgba(255,255,255,0.9);
 }
 
 #next {
@@ -168,12 +172,12 @@ button.good-morning {
           order: 3;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 20px solid #CDB5C2;
+  border-left: 20px solid rgba(255,255,255,0.5);
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
 #next:hover {
-  border-left: 20px solid #E0B0D5;
+  border-left:  20px solid rgba(255,255,255,0.9);
 }
 
 #container > button:active ~ #card {
@@ -183,11 +187,11 @@ button.good-morning {
           transform: translateY(0.5rem);
 }
 
-body.fadeout {
+div.fadeout {
   background: #e0b0d5 url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/380275/paper-3.png") repeat fixed center;
 }
 
-body.fadeout .bg-word#infront {
+div.fadeout .bg-word#infront {
   opacity: 0;
 }
 
