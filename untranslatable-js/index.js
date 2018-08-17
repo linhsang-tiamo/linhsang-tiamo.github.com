@@ -16,19 +16,20 @@ var words = [{
   language: 'Người Lạ Đây',
   description: 'Chúc Sang mỗi sáng thức dậy là một ngày vui. If by any chance, u greet me in the morning, plz do it in Spanish thôi nhé ^^'
 },
-{
-  word: 'Joh-eun achim',
-  language: 'Korean',
-  description: 'To be continued.'
-}, {
-  word: 'Bonjour',
-  language: 'France',
-  description: 'To be continued.'
-}, {
-  word: "Ba'ajjeveri hendhuneh",
-  language: 'Maldivian',
-  description: 'To be continued.'
-}];
+// {
+//   word: 'Joh-eun achim',
+//   language: 'Korean',
+//   description: 'To be continued.'
+// }, {
+//   word: 'Bonjour',
+//   language: 'France',
+//   description: 'To be continued.'
+// }, {
+//   word: "Ba'ajjeveri hendhuneh",
+//   language: 'Maldivian',
+//   description: 'To be continued.'
+// }
+];
 
 var body = document.body,
     card = document.getElementById('card'),
