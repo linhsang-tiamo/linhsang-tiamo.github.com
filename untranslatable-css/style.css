@@ -7,7 +7,7 @@
 
 body.good-morning {
   overflow: hidden;
-  background: #AEE5D8 url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/hMH8tD4/empty-aged-paper-background-with-space-for-your-text-or-design-seamless-looping_41s9m6yr__F0000.png") repeat fixed center;
+  background: #AEE5D8 url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/380275/paper-3.png") repeat fixed center;
   font-family: "Libre Baskerville", Georgia, serif;
   color: #555;
 }
@@ -159,7 +159,7 @@ button.good-morning {
   transition: 0.1s;
 }
 #last:hover {
-  border-right: 20px solid #555555;
+  border-right: 20px solid #E0B0D5;
 }
 
 #next {
@@ -173,7 +173,7 @@ button.good-morning {
   transition: 0.1s;
 }
 #next:hover {
-  border-left: 20px solid #555555;
+  border-left: 20px solid #E0B0D5;
 }
 
 #container > button:active ~ #card {
@@ -184,7 +184,7 @@ button.good-morning {
 }
 
 body.fadeout {
-  background: #e0b0d5 url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/hMH8tD4/empty-aged-paper-background-with-space-for-your-text-or-design-seamless-looping_41s9m6yr__F0000.png") repeat fixed center;
+  background: #e0b0d5 url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/380275/paper-3.png") repeat fixed center;
 }
 
 body.fadeout .bg-word#infront {
