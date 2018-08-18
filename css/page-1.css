@@ -21,3 +21,21 @@
   background: -webkit-linear-gradient(right, #8e9eab , #eef2f3);
   background: linear-gradient(to left, #8e9eab , #eef2f3); */
 }
+
+.side-3-left {
+  background: url('https://linhsang-tiamo.github.io/images/that-tich.gif');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.side-4-left {
+  background: url('https://linhlinhsang-tiamo.github.io/images/1A.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}

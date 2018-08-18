@@ -13,8 +13,8 @@ var words = [{
   description: 'Và ngôn ngữ đẹp nhất có lẽ đến từ quê hương của những bản tình ca guitar - "Español", thay mặt những tay nghệ sĩ TBN vẫn còn đang ngủ say trong kiếp cầm ca, anh chúc Sang một buổi sáng ngọt ngào - Te amo, Sang ^^'
 }, {
   word: 'Buổi sáng ngọt ngào',
-  language: 'Người Lạ Đây',
-  description: 'Chúc Sang mỗi sáng thức dậy là một ngày vui. If by any chance, u greet me in the morning, plz do it in Spanish thôi nhé ^^'
+  language: 'Người Lạ',
+  description: 'Chúc Sang mỗi sáng thức dậy là một ngày vui. If by any chance, u greet me in the morning, plz do it in Spanish ^^'
 },
 // {
 //   word: 'Joh-eun achim',
