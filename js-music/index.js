@@ -31,3 +31,12 @@ $('.trigger').click(function() {
       $('.music-card').addClass('playing');
   }
 });
+
+$('.js .photostack').after().click(function() {
+  if (audio.paused != false) {
+      audio.play();
+      $('.fa-pause').show();
+      $('.fa-play').hide();
+      $('.music-card').addClass('playing');
+  }
+});
