@@ -81,6 +81,15 @@
 	z-index: 1;
 }
 
+.header-title {
+	font-family: "Give You Glory", cursive;
+	color: #a7a0a2;
+	padding: 1rem 1rem;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.25;
+}
+
 .photostack-back p {
 	margin: 0;
 }
