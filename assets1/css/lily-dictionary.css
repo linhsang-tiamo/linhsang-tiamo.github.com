@@ -7,7 +7,7 @@ body {
   background: linear-gradient(135deg, #DDDDDD 32%, #E9EFF1 68%);
 }
 @media (max-width:700px)  {
-  body {
+  html, body {
     overflow-y: visible !important;
     overflow-x: hidden !important;
   }
