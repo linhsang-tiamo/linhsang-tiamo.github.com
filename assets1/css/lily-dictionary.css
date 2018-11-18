@@ -1,7 +1,10 @@
+html {
+  overflow-x: hidden !important;
+}
 body {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+  overflow: hidden !important;
   background: -moz-linear-gradient(-45deg, #ffe0e3 32%, #a7e0e5 68%);
   background: -webkit-linear-gradient(-45deg, #ffe0e3 32%, #a7e0e5 68%);
   background: linear-gradient(135deg, #DDDDDD 32%, #E9EFF1 68%);
@@ -11,6 +14,11 @@ body {
     overflow-y: visible !important;
     overflow-x: hidden !important;
   }
+
+  body {
+   width: 100% !important;
+  }
+
   .circle1 {
     visibility: hidden;
   }
