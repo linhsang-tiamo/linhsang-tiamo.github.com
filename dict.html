@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Your guiding star">
+  <title>Linh Sang . Tiamo</title>
+  <!-- Favicon -->
+  <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Icons -->
+  <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+  <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Argon CSS -->
+  <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
+  <!-- Docs CSS -->
+  <link type="text/css" href="./assets/css/docs.min.css" rel="stylesheet">
+  <link type="text/css" href="./assets/css/custom.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="node_modules/aplayer/dist/APlayer.min.css">
+  <link rel="stylesheet" href="./assets1/css/lily-dictionary.css" />
+  <link rel="stylesheet" href="./assets1/css/animate.css" />
+  <style>
+  #aplayer {
+    width: 100%;
+  }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="section section-lg section-shaped pt-0">
+      <div class="shape shape-style-1 shape-primary">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container py-lg-md d-flex">
+        <div class="col px-0">
+          <!-- <div class="row mb-1">
+                <div class="card shadow border-0 bg-transparent col-md-12 mb-2">
+                  <div class="card-body pt-1 pb-1 text-center">
+                    <h6 class="animated fadeInDown text-white text-uppercase">Good morning Sang <3 </h6>
+                    <p class="animated fadeInDown text-white description mt-3">Chúc Sang một sáng an lành và ngập niềm vui</p>
+                  </div>
+                </div>
+          </div> -->
+          <div class="row">
+            <div class="cover-slider__wrap col-md-6 mt-1">
+              <div class="cover-slider__inner">
+                <!-- <p>Anh mơ em</p> -->
+              </div>
+              <ul class="cover-slider">
+                <li class="cover-slider__slide">
+                  <span class="hide">Alt Tag</span>
+                </li>
+                <li class="cover-slider__slide">
+                  <span class="hide">Alt Tag</span>
+                </li>
+                <li class="cover-slider__slide">
+                  <span class="hide">Alt Tag</span>
+                </li>
+                <li class="cover-slider__slide">
+                  <span class="hide">Alt Tag</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 mt-0" style="z-index: 10 !important;">
+              <div id="aplayer" class="px-0"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG separator -->
+    </section>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+    <div class="circle6"></div>
+    <div class="circle7"></div>
+    <div class="circle8"></div>
+  </main>
+</body>
+  <!-- Core -->
+  <script src="./assets/vendor/jquery/jquery.min.js"></script>
+  <script src="./assets/vendor/popper/popper.min.js"></script>
+  <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="./assets/vendor/headroom/headroom.min.js"></script>
+  <!-- Optional JS -->
+  <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+  <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+  <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <!-- Argon JS -->
+  <script src="./assets/js/argon.js?v=1.0.1"></script>
+  <script src="./assets/js/custom.js"></script>
+  <script src="node_modules/aplayer/dist/APlayer.min.js"></script>
+  <script>
+    const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      mini: false,
+      autoplay: true,
+      theme: '#FADFA3',
+      loop: 'all',
+      order: 'list',
+      preload: 'auto',
+      volume: 0.7,
+      mutex: true,
+      listFolded: false,
+      listMaxHeight: 90,
+      lrcType: 3,
+      audio: [
+        {
+          name: 'Anh đếch cần gì ngoài em',
+          artist: 'Đen ft. Vũ., Thành Đồng',
+          url: 'mp3/anh-dech-can-gi-nhieu-ngoai-em.mp3',
+          cover: 'gallery/img/c1.jpg',
+          lrc: 'lrc1.lrc',
+          theme: '#ebd0c2'
+        },
+        {
+          name: 'Ta cứ đi cùng nhau',
+          artist: 'Đen ft. Linh Cáo',
+          url: 'mp3/ta-cu-di-cung-nhau.mp3',
+          cover: 'gallery/img/s2.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: "Fallin' all in you",
+          artist: 'Shawn Mendes',
+          url: 'mp3/fall-all-in-you.mp3',
+          cover: 'gallery/img/5.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'Đưa nhau đi trốn',
+          artist: 'Đen ft. Linh Cáo',
+          url: 'mp3/dua-nhau-di-tron.mp3',
+          cover: 'gallery/img/sd.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'Đố em biết anh đang nghỉ gì',
+          artist: 'Đen x JustaTee',
+          url: 'mp3/do-em-biet-anh-nghi-gi.mp3',
+          cover: 'gallery/img/1.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'Dusk till dawn',
+          artist: '[Nightcore] ZAYN ft. Sia',
+          url: 'mp3/dusk-till-dawn.mp3',
+          cover: 'gallery/img/13.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'The scientist',
+          artist: 'Coldplay',
+          url: 'mp3/the-scientist.mp3',
+          cover: 'gallery/img/5.jpg',
+          lrc: 'mp3/lrc/the-scientist.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'Không chỉ là thích',
+          artist: 'Song Lục',
+          url: 'mp3/khong-chi-la-thich.mp3',
+          cover: 'gallery/img/8.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: "Je t'aime",
+          artist: '[Nightcore] Kelly Sweet',
+          url: 'mp3/je-taime.mp3',
+          cover: 'gallery/img/s2.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'Chầm chậm thích anh',
+          artist: 'Mạc Văn Uý',
+          url: 'mp3/cham-cham-thich-anh.mp3',
+          cover: 'gallery/img/24.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'Gặp em đúng lúc',
+          artist: 'Luân Tang',
+          url: 'mp3/gap-em-dung-luc.mp3',
+          cover: 'gallery/img/26.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+        {
+          name: 'Girls like you',
+          artist: 'Maroon 5 ft. Cardi B',
+          url: 'mp3/girls-like-you.mp3',
+          cover: 'gallery/img/c1.jpg',
+          lrc: 'lrc2.lrc',
+          theme: '#46718b'
+        },
+      ]
+    });
+  </script>
+</html>
